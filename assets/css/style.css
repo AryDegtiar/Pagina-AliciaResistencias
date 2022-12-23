@@ -53,4 +53,10 @@ body {
 
 #inicio{
   height: 100vmin;
+  background-image: url(../images/foto_fondo_3.jpg);
+}
+
+#sec_inicio {
+  display: flex;
+  justify-items: center;
 }
