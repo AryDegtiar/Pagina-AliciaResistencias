@@ -58,11 +58,10 @@ body {
   background-color: #a9a9a9;
 }
 
-#contacto{
+#imgContacto{
   height: 400px;
   width: 100%;
-  background-image: url(../images/wallpaper-contacto.jpg);
-  background-size: cover;
+  object-fit: cover;
 
 }
 
