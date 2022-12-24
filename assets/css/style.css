@@ -58,6 +58,14 @@ body {
   background-color: #a9a9a9;
 }
 
+#contacto{
+  height: 400px;
+  width: 100%;
+  background-image: url(../images/wallpaper-contacto.jpg);
+  background-size: cover;
+
+}
+
 @media (min-width: 1320px) {
   .px-lg-10{
     padding-left: 10rem !important;
