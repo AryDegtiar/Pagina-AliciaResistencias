@@ -10,6 +10,8 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/fondo-cubos.css" />
 
@@ -45,7 +47,7 @@
     <section class="container-fluid" id="inicio">
         <div class="container-fluid cover-container h-100">
           <div class="row h-100 d-flex justify-content-center align-items-center">
-            <div class="text-center">
+            <div class="text-center animate__animated animate__fadeIn">
               <h1 class="content" style="font-size: calc(1.8rem + 1.5vw);">Cover your page.</h1>
               <p class="lead content">Cover is a one-page template for building simple and beautiful home pages. Download, edit the
                 text, and add your own fullscreen background photo to make it your own.</p>
@@ -62,18 +64,18 @@
         <div class="container py-5">
             <div class="row py-5">
 
-              <div class="col-12 col-lg-5 order-lg-1">
+              <div class="col-12 col-lg-5 order-lg-1" data-aos="fade-left">
                 <img class="rounded" src="./assets/images/gears-and-cogwheels.jpg" alt="" style="width: 100%;">
               </div>
 
-              <div class="col-12 col-lg-7 order-lg-0 mt-4 mt-lg-0">
+              <div class="col-12 col-lg-7 order-lg-0 mt-4 mt-lg-0" data-aos="fade-right">
                 <div class="d-flex justify-items-center align-items-center text-center h-100" >
                   <div class="row px-5">
                     <div class="col-12">
-                      <h1 class="text-white">Titulo 12356</h1>
+                      <h1 class="text-white tag">Titulo 12356</h1>
                     </div>
                     <div class="col-12">
-                      <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptate
+                      <p class="text-white tag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptate
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptate
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptate
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptate
@@ -99,7 +101,7 @@
           <!-- CARDS -->
           <div class="col-12">
           <div class="row pb-2 pt-4 px-lg-10">
-            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center m-lg-0 py-4">
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center m-lg-0 py-4" data-aos="fade-up">
               <div class="card" style="width: 18rem;">
                 <img src="./assets/images/gears-and-cogwheels.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -110,7 +112,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center m-lg-0 py-4">
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center m-lg-0 py-4" data-aos="fade-up">
               <div class="card" style="width: 18rem;">
                 <img src="./assets/images/gears-and-cogwheels.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -121,7 +123,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center m-lg-0 py-4">
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center m-lg-0 py-4" data-aos="fade-up">
               <div class="card" style="width: 18rem;">
                 <img src="./assets/images/gears-and-cogwheels.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -133,7 +135,7 @@
               </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center m-lg-0 py-4">
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center m-lg-0 py-4" data-aos="fade-up">
               <div class="card" style="width: 18rem;">
                 <img src="./assets/images/gears-and-cogwheels.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -144,7 +146,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center m-lg-0 py-4">
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center m-lg-0 py-4" data-aos="fade-up">
               <div class="card" style="width: 18rem;">
                 <img src="./assets/images/gears-and-cogwheels.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -155,7 +157,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center m-lg-0 py-4">
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center m-lg-0 py-4" data-aos="fade-up">
               <div class="card" style="width: 18rem;">
                 <img src="./assets/images/gears-and-cogwheels.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -209,10 +211,21 @@
     </div>
     
 
+  
+    <script src="./assets/js/animations-scroll.js"></script>
+    <!-- ANIMATIONS -->
+    <script src="./assets/js/animations.js"></script>
+    <!-- Bootstrap Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration:1000
+      });
+    </script>
   </body>
 </html>
