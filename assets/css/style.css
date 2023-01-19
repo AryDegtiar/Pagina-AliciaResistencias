@@ -2,6 +2,38 @@
  * Globals
  */
 
+ /* Estilo para la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: #000000;
+}
+
+/* Estilo para el cursor de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+  background-color: #de682d;
+  border-radius: 5px;
+}
+
+.text-orange{
+  color: #de682d;
+}
+
+/*  loading  */
+#loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1d1d1d;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
 
 /* Custom default button */
 .btn-secondary,
@@ -18,6 +50,7 @@
 
 body {
   /*box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);*/
+  background-color: rgba(0,0,0,0.8);
 }
 
 .cover-container {
