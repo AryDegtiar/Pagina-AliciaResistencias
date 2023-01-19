@@ -24,7 +24,6 @@ body {
   max-width: 42em;
 }
 
-
 /*
  * Header
  */
@@ -122,3 +121,9 @@ body {
 }
 
 
+@media (min-width: 1024px) {
+  #inicio p{
+    max-width: 50%;
+  }
+  
+}
