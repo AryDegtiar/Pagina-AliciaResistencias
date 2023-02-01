@@ -172,6 +172,13 @@ body {
   object-fit: cover;
 }
 
+.imgLogo{
+  width: 100%;
+  object-fit: cover;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
 @media (min-width: 1320px) {
   .px-lg-10{
     padding-left: 10rem !important;
@@ -179,10 +186,20 @@ body {
   }
 }
 
+@media (min-width: 720px) {
+  .imgLogo{
+    width: 400px;
+    object-fit: cover;
+    -webkit-filter: invert(100%);
+            filter: invert(100%);
+  }
+}
 
+/*
 @media (min-width: 1024px) {
   #inicio p{
     max-width: 50%;
   }
   
 }
+*/
