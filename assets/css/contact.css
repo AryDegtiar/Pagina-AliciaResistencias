@@ -2,7 +2,6 @@
  * Globals
  */
 
-
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
@@ -101,7 +100,7 @@ body {
     .contact-wrap .form {
       background: #fff; }
     .contact-wrap .contact-info {
-      background: #35477d; }
+      background: #94431b; }
       .contact-wrap .contact-info h3 {
         color: #fff;
         font-size: 20px;
@@ -135,5 +134,5 @@ body {
     color: #000; }
   
 #relleno {
-  background-color: #35477d;
+  background-color: #94431b;
 }

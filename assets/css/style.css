@@ -14,6 +14,17 @@
   border-radius: 5px;
 }
 
+.btn-orange{
+  background-color: #de682d;
+  border-color: #de682d;
+}
+
+.btn-orange:hover{
+  background-color: #454545;
+  border-color: #454545;
+}
+
+
 .text-orange{
   color: #de682d;
 }
